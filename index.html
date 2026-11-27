@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luggage Lanes: a baggage-routing puzzle for iPhone and iPad</title>
+<meta name="description" content="A baggage-routing puzzle game for iPhone, iPhone Duo and iPad: lay conveyor belts to get each bag to its flight. 100 levels across eight airports, plus an endless Rush Hour mode.">
+<meta name="theme-color" content="#0d0f14">
+<meta property="og:title" content="Luggage Lanes">
+<meta property="og:description" content="A baggage-routing puzzle game for iPhone, iPhone Duo and iPad. 100 levels across eight airports.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/icon.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="safety" aria-hidden="true"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon.png" alt="" width="36" height="36">Luggage Lanes</a>
+    <nav class="nav" aria-label="Site">
+      <a href="./" aria-current="page">Home</a>
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="sign"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg>For iPhone, iPhone Duo and iPad</span>
+        <h1 aria-label="Luggage Lanes">
+          <span class="flaps" data-flap="LUGGAGE LANES" aria-hidden="true"></span>
+        </h1>
+        <p class="lede">A puzzle game about routing luggage through an airport's conveyor belts.</p>
+        <p class="sub">Place belts so each bag reaches its flight's gate before the gate closes. Later levels add switches, sorters, crossovers, lifts between floors and transfer trains. Press Run to test your layout.</p>
+        <div class="cta-row">
+          <img class="app-icon" src="assets/icon.png" width="64" height="64" alt="Luggage Lanes app icon">
+          <a class="badge" href="#" aria-label="Download on the App Store (coming soon)">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm0 2v12h10V5H7zm5 13.2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>
+            <span><small>Download on the</small><strong>App Store</strong></span>
+          </a>
+          <span class="cta-note">Coming soon</span>
+        </div>
+      </div>
+      <div class="hero-phone phone">
+        <img src="assets/shots/shift.webp" width="660" height="1434" alt="An Amsterdam puzzle: belts carry red, blue and yellow bags from check-in desks A and B to their gates, under a departures board.">
+      </div>
+    </div>
+  </section>
+
+  <div class="safety" aria-hidden="true"></div>
+
+  <section class="duo">
+    <div class="wrap duo-grid">
+      <div class="duo-device" role="img" aria-label="iPhone Duo half-folded: the departures board and controls on the upright half, the belts lying flat on the lower half.">
+        <div class="duo-stage">
+          <div class="duo-half duo-up"><img src="assets/shots/duo-upright.webp" width="660" height="717" alt=""></div>
+          <div class="duo-half duo-flat"><img src="assets/shots/duo-flat.webp" width="660" height="717" alt=""></div>
+        </div>
+      </div>
+      <div>
+        <span class="sign"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 5h16v9H4zm-2 11h20v2H2z"/></svg>iPhone Duo</span>
+        <h2>Built for iPhone Duo</h2>
+        <p class="section-intro">Luggage Lanes uses the Duo's hinge. It also plays normally on every other iPhone and iPad.</p>
+        <ul class="duo-list">
+          <li>
+            <h3>Half-fold to play</h3>
+            <p>Fold the Duo like a laptop. The departures board and controls sit on the upright half and every floor of belts lies flat on the lower half, split exactly at the fold. On two-terminal levels, one terminal goes on each half.</p>
+          </li>
+          <li>
+            <h3>The hinge sets Rush Hour's speed</h3>
+            <p>In Rush Hour, half-folded, the hinge angle controls belt speed. Fold it further to slow the belts down, open it to speed them up. Faster belts score more.</p>
+          </li>
+          <li>
+            <h3>Close it, keep playing</h3>
+            <p>Close the Duo mid-level and keep playing on the front screen. Open it to go back to the big screen. Locking the phone pauses the level.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="safety" aria-hidden="true"></div>
+
+  <section>
+    <div class="wrap">
+      <span class="sign">Features</span>
+      <h2>How it works</h2>
+      <p class="section-intro">Bags arrive at check-in desks in a set order. Each bag colour belongs to a flight with its own gate and closing time. You lay belts to get every bag to the right gate in time, using as little track as you can.</p>
+      <ul class="features">
+        <li>
+          <div class="bags" aria-hidden="true"><i class="bag" style="--c:var(--red)"></i><i class="bag" style="--c:var(--blue)"></i></div>
+          <h3>Switches</h3>
+          <p>A switch sends bags left and right in turn, so the check-in order decides where each bag goes.</p>
+        </li>
+        <li>
+          <div class="bags" aria-hidden="true"><i class="bag" style="--c:var(--green)"></i><i class="bag" style="--c:var(--yellow)"></i><i class="bag" style="--c:var(--purple)"></i></div>
+          <h3>Sorters, lifts and trains</h3>
+          <p>Sorters split bags by colour. Some levels have two floors joined by lifts, or two terminals joined by a transfer train.</p>
+        </li>
+        <li>
+          <div class="bags" aria-hidden="true"><i class="bag" style="--c:var(--yellow)"></i></div>
+          <h3>Scores and stars</h3>
+          <p>You score points for each bag delivered and for early arrivals, minus the cost of your belts. Matching the par score earns three stars. Hints and undo are there when you need them.</p>
+        </li>
+        <li>
+          <div class="bags" aria-hidden="true"><i class="bag" style="--c:var(--red)"></i><i class="bag" style="--c:var(--red)"></i><i class="bag" style="--c:var(--blue)"></i></div>
+          <h3>Rush Hour</h3>
+          <p>An endless mode where bags keep arriving and you flip switches while they move. Leave mid-shift and pick it up later where you left off.</p>
+        </li>
+        <li>
+          <div class="bags" aria-hidden="true"><i class="bag" style="--c:var(--purple)"></i><i class="bag" style="--c:var(--green)"></i></div>
+          <h3>Airports open as you go</h3>
+          <p>Start in Key West. Each next airport opens once you've solved the first three levels of the one before and earned enough stars.</p>
+        </li>
+        <li>
+          <div class="bags" aria-hidden="true"><i class="bag" style="--c:var(--blue)"></i></div>
+          <h3>Share your result</h3>
+          <p>Finish a level and share a card with your stars and score. It shows the level, not your solution, so friends can try it themselves.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Screenshots</h2>
+      <div class="shots" tabindex="0" aria-label="Screenshots">
+        <figure class="phone-fig"><div class="phone"><img src="assets/shots/menu.webp" width="660" height="1434" loading="lazy" alt="Main menu listing the airports: Key West, Zürich, Amsterdam, Reykjavík, London, Atlanta."></div><figcaption>Main menu</figcaption></figure>
+        <figure class="phone-fig"><div class="phone"><img src="assets/shots/two-floors.webp" width="660" height="1434" loading="lazy" alt="A Hong Kong puzzle with an upper arrivals floor and a lower departures floor joined by lifts."></div><figcaption>Two floors joined by lifts</figcaption></figure>
+        <figure class="phone-fig"><div class="phone"><img src="assets/shots/train.webp" width="660" height="1434" loading="lazy" alt="A Denver puzzle with two terminals linked by a transfer train."></div><figcaption>Transfer train between terminals</figcaption></figure>
+        <figure class="phone-fig"><div class="phone"><img src="assets/shots/result.webp" width="660" height="1434" loading="lazy" alt="Shift complete: three stars and a score of 474, matching par."></div><figcaption>Level result</figcaption></figure>
+        <figure class="phone-fig"><div class="phone"><img src="assets/shots/airport.webp" width="660" height="1434" loading="lazy" alt="The London airport's thirteen gates, each a puzzle."></div><figcaption>Level select</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <span class="sign">Airports</span>
+      <h2>100 levels across eight airports</h2>
+      <p class="section-intro">Each airport has its own colour scheme. Belts, bags and gates look the same in all of them.</p>
+      <div class="board">
+        <div class="board-head">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2.5 19h19v2h-19zM22.07 9.64a1.5 1.5 0 0 0-1.84-1.06L14.92 10 8 3.57l-1.93.51 4.14 7.17-4.97 1.33-1.97-1.54-1.45.39 2.59 4.49 16.6-4.45a1.5 1.5 0 0 0 1.06-1.83z"/></svg>
+          DEPARTURES
+        </div>
+        <table>
+          <thead><tr><th>Code</th><th>Airport</th><th class="idea-col">Theme</th><th>Colours</th></tr></thead>
+          <tbody>
+            <tr><td class="code">EYW</td><td>Key West</td><td class="idea idea-col">Pink and teal</td><td><span class="edge" style="--e:#fabdb3;--s:#147a80"></span></td></tr>
+            <tr><td class="code">ZRH</td><td>Zürich</td><td class="idea idea-col">White and black</td><td><span class="edge" style="--e:#f5f5f5;--s:#1f1f21"></span></td></tr>
+            <tr><td class="code">AMS</td><td>Amsterdam</td><td class="idea idea-col">Orange and blue</td><td><span class="edge" style="--e:#ff800d;--s:#1a337a"></span></td></tr>
+            <tr><td class="code">KEF</td><td>Reykjavík</td><td class="idea idea-col">Ice blue and green</td><td><span class="edge" style="--e:#dbf2fa;--s:#14756b"></span></td></tr>
+            <tr><td class="code">LHR</td><td>London</td><td class="idea idea-col">Brass and charcoal</td><td><span class="edge" style="--e:#cca659;--s:#121214"></span></td></tr>
+            <tr><td class="code">ATL</td><td>Atlanta</td><td class="idea idea-col">Peach and red</td><td><span class="edge" style="--e:#ffb37a;--s:#9e4026"></span></td></tr>
+            <tr><td class="code">HKG</td><td>Hong Kong</td><td class="idea idea-col">Neon magenta</td><td><span class="edge" style="--e:#ff4fc2;--s:#1a0f26"></span></td></tr>
+            <tr><td class="code">DEN</td><td>Denver</td><td class="idea idea-col">White and sky blue</td><td><span class="edge" style="--e:#f7f7fa;--s:#4080e6"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="promise">
+        <div><strong>NO ADS</strong><span>No ads and no in-app purchases.</span></div>
+        <div><strong>NO ACCOUNTS</strong><span>Your progress is saved on your device.</span></div>
+        <div><strong>NO TRACKING</strong><span>Only anonymous usage statistics that can't identify you. <a href="privacy/">Privacy policy</a></span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="safety" aria-hidden="true"></div>
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms</a>
+    </nav>
+    <span class="copy">© 2026 Umbo LLC</span>
+  </div>
+</footer>
+<script src="assets/flaps.js" defer></script>
+</body>
+</html>
