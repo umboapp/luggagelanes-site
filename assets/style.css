@@ -199,28 +199,19 @@ footer .copy { margin-left: auto; }
 .fine { color: var(--muted); font-size: 14px; }
 
 .duo { background: linear-gradient(180deg, rgba(255, 204, 0, 0.05), transparent 60%); overflow-x: clip; }
-.duo-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: center; }
-.duo-device { display: grid; place-items: center; padding: 10px 0 30px; }
-.duo-stage { width: min(290px, 64vw); perspective: 1100px; perspective-origin: 50% 20%; }
-.duo-half {
-  background: #050608; padding: 7px; box-shadow: 0 0 0 1.5px #2e323a;
-}
-.duo-half img { width: 100%; height: auto; }
-.duo-up { border-radius: 30px 30px 6px 6px; padding-bottom: 4px; }
-.duo-up img { border-radius: 24px 24px 3px 3px; }
-.duo-flat {
-  border-radius: 6px 6px 30px 30px; padding-top: 4px;
-  transform-origin: 50% 0; transform: rotateX(58deg);
-  box-shadow: 0 0 0 1.5px #2e323a, 0 50px 50px -20px rgba(0, 0, 0, 0.7);
-  margin-bottom: -40px;
-}
-.duo-flat img { border-radius: 3px 3px 24px 24px; }
+.duo-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; }
+.duo-shots { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.duo-shots figure { margin: 0; }
+.duo-shots figcaption { margin-top: 10px; color: var(--muted); font-size: 14px; text-align: center; }
+.duo-phone { border-radius: 22px; padding: 6px; }
+.duo-phone img { border-radius: 17px; }
 .duo-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
 .duo-list li { border-left: 4px solid var(--sign); padding: 4px 0 4px 16px; }
 .duo-list h3 { margin: 0 0 4px; font-size: 18px; }
 .duo-list p { margin: 0; color: var(--muted); font-size: 15px; }
 @media (max-width: 860px) {
   .duo-grid { grid-template-columns: 1fr; gap: 24px; }
-  .duo-device { order: 2; }
+  .duo-shots { order: 2; }
 }
+
 .app-icon { width: 64px; height: 64px; border-radius: 15px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1); }
